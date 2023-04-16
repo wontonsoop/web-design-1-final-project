@@ -15,6 +15,13 @@ h1 {
     font-size: xx-large;
     
 }
+
+
+a:hover {
+    color: #0e1215;
+    background-color: white;
+}
+
 .bg-white {
     background-color: white;
 }
@@ -25,5 +32,44 @@ h1 {
     background-color: black;
 }
 .bg-dark-grey {
-background-color: #0e1215;
+     display: flex;
+     background-color: #0e1215;
+}
+.article-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+  }
+
+.boxed-article {
+    
+    text-align: left;
+    width: 1280px;
+    background-color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+.button {
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    width: fit-content;
+    padding-left: .5em;
+    padding-right: .5em;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+   
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+#services {
+    text-align: center;
 }
