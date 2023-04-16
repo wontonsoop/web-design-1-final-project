@@ -83,15 +83,6 @@ a:visited {
     color: white;
 }
 
-.bg-white {
-    background-color: white;
-}
-.bg-light-grey {
-    background-color: #fafafa;
-}
-.bg-black {
-    background-color: black;
-}
 .bg-dark-grey {
      display: flex;
      background-color: #0e1215;
@@ -111,6 +102,8 @@ a:visited {
     background-color: white;
     margin-left: 2em;
     margin-right: 2em;
+    padding: 20px 20px 30px 20px;
+  
 
 }
 .button {
@@ -123,6 +116,7 @@ a:visited {
     color: white;
     font-size: larger;
     font-weight: bold;
+    text-decoration: none;
    
 }
 
@@ -190,7 +184,7 @@ a:visited {
 }
 
 .quotes {
-    background-color: #0e1215;
+    background-color: black;
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -215,6 +209,8 @@ a:visited {
 
 #contact-me {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 
 
@@ -241,4 +237,8 @@ footer {
     padding-top: 2px;
     padding-bottom: 2px;
     text-align: center;
+}
+
+small {
+    color: white;
 }
