@@ -140,6 +140,8 @@ a:visited {
 }
 #my-work {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 200px;
     
 }
 
@@ -154,6 +156,7 @@ a:visited {
     grid-template-areas:
         "picture1 picture1 picture1 picture2 picture2 picture2"
         "picture3 picture3 picture4 picture4 picture5 picture5";
+        max-width: 100%;
     
 
 }
@@ -182,4 +185,19 @@ a:visited {
 .image5 {
     grid-area: picture5;
    
+}
+
+.quotes {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+
+}
+
+.inner-quotes {
+    display: flex;
+
 }
