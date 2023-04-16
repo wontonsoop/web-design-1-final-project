@@ -11,3 +11,19 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+h1 {
+    font-size: xx-large;
+    
+}
+.bg-white {
+    background-color: white;
+}
+.bg-light-grey {
+    background-color: #fafafa;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-dark-grey {
+background-color: #0e1215;
+}
