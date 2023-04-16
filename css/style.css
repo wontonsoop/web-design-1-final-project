@@ -7,19 +7,78 @@ html {
     background-color: white;
 }
 
+body {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+
 h1 {
     font-size: xx-large;
     
 }
 
+#name {
+font-size: 1.5rem;
+
+}
+
+#nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+}
+
+#nav img {
+    width: 1080px;
+}
+
+.wrapper-bio {
+    display: grid;
+    grid-template-columns: .85fr .15fr;
+    width: 100%;
+
+}
+
+a {
+    color:white;
+}
 
 a:hover {
-    color: #0e1215;
-    background-color: white;
+    color: #fafafa;
+    font-weight: bold;
+    
+}
+
+a:focus{
+    color:#0e1215;
+    text-decoration: underline;
+    
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+#top-banner {
+    
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+
+
+ }
+
+#top-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
 .bg-white {
@@ -38,11 +97,13 @@ a:hover {
 .article-box {
     display: flex;
     flex-direction: row;
-    background-color: #fafafa;
+    
   }
 
 .boxed-article {
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     text-align: left;
     width: 1280px;
     background-color: white;
@@ -72,4 +133,7 @@ a:hover {
 
 #services {
     text-align: center;
+    background-color: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
